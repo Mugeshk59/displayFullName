@@ -26,7 +26,7 @@ const Counter = () => {
       <form onSubmit={handleSubmit}>
         <label>First Name:</label>
         <input
-          type="input"
+          type="text"
           minLength={1}
           value={firstName}
           onChange={(e) => handleFirstName(e.target.value)}
@@ -35,7 +35,7 @@ const Counter = () => {
         <br />
         <label>Last Name:</label>
         <input
-          type="input"
+          type="text"
           minLength={1}
           value={lastName}
           onChange={(e) => handleLastName(e.target.value)}
